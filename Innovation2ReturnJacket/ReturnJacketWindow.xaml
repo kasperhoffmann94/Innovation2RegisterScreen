@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="ReturnJacketWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="Identity Identified" HorizontalAlignment="Left" Margin="233,82,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label Content="Get Jacket with number" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="140,193,0,0" FontSize="36"/>
+        <Button x:Name="BackBtn" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Height="35" Margin="10,10,0,0" Click="BackBtn_Click"/>
+        <Label x:Name="NumberLabel" Content="" HorizontalAlignment="Left" Margin="539,193,0,0" VerticalAlignment="Top" Height="83" Width="130" FontSize="48"/>
+
     </Grid>
 </Window>

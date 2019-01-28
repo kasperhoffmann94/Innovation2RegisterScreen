@@ -22,6 +22,16 @@ namespace Innovation2ReturnJacket
         public ReturnJacketWindow()
         {
             InitializeComponent();
+            Random random = new Random();
+            int randomNumber = random.Next(0, 200);
+            NumberLabel.Content = randomNumber;
+        }
+
+        private void BackBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            main.Show();
+            this.Close();
         }
     }
 }
