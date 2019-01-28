@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innovation2RegisterScreen", "Innovation2RegisterScreen\Innovation2RegisterScreen.csproj", "{ECC2DFA0-545B-4B64-8991-39D567E4969D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innovation2ReturnJacket", "Innovation2ReturnJacket\Innovation2ReturnJacket.csproj", "{5C52567E-67D2-4946-9299-5AD6B9D1A65E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECC2DFA0-545B-4B64-8991-39D567E4969D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC2DFA0-545B-4B64-8991-39D567E4969D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC2DFA0-545B-4B64-8991-39D567E4969D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC2DFA0-545B-4B64-8991-39D567E4969D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C52567E-67D2-4946-9299-5AD6B9D1A65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C52567E-67D2-4946-9299-5AD6B9D1A65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C52567E-67D2-4946-9299-5AD6B9D1A65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C52567E-67D2-4946-9299-5AD6B9D1A65E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3144C834-7C3D-4D31-8A2F-7CDAA1136F9C}
+	EndGlobalSection
+EndGlobal

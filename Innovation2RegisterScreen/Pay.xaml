@@ -1,0 +1,15 @@
+﻿<Window x:Class="Innovation2RegisterScreen.Pay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Innovation2RegisterScreen"
+        mc:Ignorable="d"
+        Title="Pay" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="BackBtn" Cursor="Hand" RenderTransformOrigin="-7.231,-2.703" Margin="10,10,680,358" Content="Back" FontSize="20" Click="BackBtn_Click"/>
+        <Image Source="C:\Users\kaspe\Desktop\betaling.jpg" Margin="196,154,226,70"></Image>
+        <Label Content="20 kr" HorizontalAlignment="Left" Margin="325,75,0,0" VerticalAlignment="Top" FontSize="48"/>
+
+    </Grid>
+</Window>

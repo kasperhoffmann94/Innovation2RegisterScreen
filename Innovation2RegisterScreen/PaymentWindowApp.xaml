@@ -1,0 +1,15 @@
+﻿<Window x:Class="Innovation2RegisterScreen.PaymentWindowApp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Innovation2RegisterScreen"
+        mc:Ignorable="d"
+        Title="PaymentWindowApp" Height="450" Width="800">
+    <Grid>
+        <Button Cursor="Hand" Content="Betal for Jakke med App" HorizontalAlignment="Center" Margin="109,125,125,86" VerticalAlignment="Center" Width="558" Height="208" FontSize="48" Background="LightBlue" x:Name ="PayBtn_Copy" Click="PayBtnAPp_Click"/>
+        <Label Content="20Kr." HorizontalAlignment="Left" Margin="643,42,0,0" VerticalAlignment="Top" FontSize="36" Height="54" Width="87"/>
+        <Button x:Name="BackBtn" Cursor="Hand" RenderTransformOrigin="-7.231,-2.703" Margin="10,10,680,358" Content="Back" FontSize="20" Click="BackBtn_Click"/>
+
+    </Grid>
+</Window>

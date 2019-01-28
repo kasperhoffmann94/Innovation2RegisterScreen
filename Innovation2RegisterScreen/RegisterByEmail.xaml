@@ -1,0 +1,22 @@
+﻿<Window x:Class="Innovation2RegisterScreen.RegisterByEmail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Innovation2RegisterScreen"
+        mc:Ignorable="d"
+        Title="RegisterByEmail" Height="450" Width="800">
+    <Grid Margin="0,0,2,3">
+        <Label Content="Navn" HorizontalAlignment="Left" Margin="80,155,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="80,244,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="43" Margin="186,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383"/>
+        <Label Content="Registrer Ved Navn og Email" HorizontalAlignment="Left" Margin="244,10,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="43" Margin="186,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383"/>
+
+        <Button Name="BackBtn" Cursor="Hand" RenderTransformOrigin="-7.231,-2.703" Margin="10,10,672,359" Content="Back" FontSize="20" Click="BackBtn_Click"/>
+
+
+
+
+    </Grid>
+</Window>
